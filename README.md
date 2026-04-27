@@ -1,6 +1,27 @@
+<div align="center">
+
+<img src="./image/banner.png" alt="rime-shushu-dict banner" width="100%" />
+
 # rime-shushu-dict
 
-一份适用于 [RIME 输入法](https://rime.im/) 的 **术数 / 神秘学** 中文词库，覆盖中国传统命理、占卜、堪舆、道教民俗，以及西方占星、塔罗、炼金术、卡巴拉等内容，方便相关从业者、爱好者及研究者高效输入相关术语。
+**一份适用于 [RIME 输入法](https://rime.im/) 的术数 / 神秘学中文词库**
+
+覆盖中国传统命理、占卜、堪舆、道教民俗，以及西方占星、塔罗、炼金术、卡巴拉等内容
+
+[简体中文](./README.md) · [English](./README.en.md)
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![RIME](https://img.shields.io/badge/RIME-Input%20Method-1f6feb.svg)](https://rime.im/)
+[![Entries](https://img.shields.io/badge/词条-960%2B-blue.svg)](./shushu_mysticism.dict.yaml)
+[![Categories](https://img.shields.io/badge/分类-16-9cf.svg)](#词库内容)
+[![Stars](https://img.shields.io/github/stars/misakaikato/rime-shushu-dict?style=social)](https://github.com/misakaikato/rime-shushu-dict/stargazers)
+[![Issues](https://img.shields.io/github/issues/misakaikato/rime-shushu-dict.svg)](https://github.com/misakaikato/rime-shushu-dict/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/misakaikato/rime-shushu-dict.svg)](https://github.com/misakaikato/rime-shushu-dict/commits/main)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#贡献指南)
+
+</div>
+
+---
 
 ## 特性
 
@@ -74,16 +95,37 @@
 
 可按个人需求自行调整权重。
 
-## 贡献
+## 贡献指南
 
-欢迎通过 Issue / PR 提交：
+🎉 **欢迎任何形式的贡献！** 无论你是命理爱好者、Rime 用户，还是路过的开发者，都可以参与共建：
 
-- 缺失的术语（请附拼音及建议权重）
-- 错误的拼音或字形
-- 多音字 / 异写体的容错条目
-- 学派、流派分类建议
+### 你可以做什么
 
-提交时请尽量保持原有格式（`词条<TAB>拼音<TAB>权重`）以及所属分类。
+- 🔤 **补充词条**：缺失的术语、流派专用语、地方异写
+- 🐛 **修正错误**：拼音、字形、权重、分类不当
+- 🔁 **添加容错**：多音字、繁简、异体、常见误读、外来译名
+- 📚 **完善文档**：使用说明、安装步骤、方案适配
+- 🌐 **翻译协作**：英文版及其他语种 README
+
+### 提交流程
+
+1. Fork 本仓库 → 创建你的分支：`git checkout -b feat/add-xxx`
+2. 按现有格式追加词条（注意分类位置）：
+	```
+	词条<TAB>拼音（小写、空格分隔）<TAB>权重（整数）
+	```
+3. 提交：`git commit -m "feat: 增加 xxx 类词条"`
+4. 推送：`git push origin feat/add-xxx`
+5. 提交 [Pull Request](https://github.com/misakaikato/rime-shushu-dict/pulls)
+
+### 贡献准则
+
+- 词条尽量保持**专业准确**，避免网络戏称、自创术语
+- 拼音以 **现代汉语词典 / 普通话审音表** 为准；存在异读时分别列入「异读与容错」类
+- 权重在区间内**相对合理**即可，不必精确比较
+- 大批量改动建议**先开 Issue 讨论**
+
+也欢迎通过 [Issues](https://github.com/misakaikato/rime-shushu-dict/issues) 反馈意见、报告错误或提出建议 ✨
 
 ## 致谢
 
@@ -93,3 +135,11 @@
 ## 许可
 
 本词库以 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 协议发布，使用时请保留出处。
+
+---
+
+<div align="center">
+
+如果这个词库对你有帮助，欢迎点亮一颗 ⭐ Star —— 这是对作者最大的鼓励！
+
+</div>

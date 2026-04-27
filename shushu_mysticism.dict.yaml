@@ -1,0 +1,981 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 术数、神秘学常用词词典
+# 适用于 Rime / 雾凇拼音等方案，可按需拆分或合并到自定义词库
+#
+---
+name: shushu_mysticism
+version: "2026-04-27"
+sort: by_weight
+author: misaka
+...
+
+##### 总类
+术数	shu shu	10000
+数术	shu shu	9500
+玄学	xuan xue	9800
+神秘学	shen mi xue	9600
+神秘主义	shen mi zhu yi	8000
+命理	ming li	9800
+命理学	ming li xue	9000
+占卜	zhan bu	9000
+卜筮	bu shi	8500
+预测学	yu ce xue	8200
+阴阳	yin yang	9800
+阴阳五行	yin yang wu xing	9600
+天人感应	tian ren gan ying	7500
+天人合一	tian ren he yi	7600
+象数	xiang shu	9000
+义理	yi li	7600
+象数理占	xiang shu li zhan	7400
+河图	he tu	9000
+洛书	luo shu	9000
+太极	tai ji	9800
+无极	wu ji	8500
+两仪	liang yi	9200
+三才	san cai	9000
+四象	si xiang	9200
+五行	wu xing	10000
+六合	liu he	9000
+三合	san he	8500
+六冲	liu chong	8500
+六害	liu hai	8000
+三刑	san xing	8000
+相生	xiang sheng	9000
+相克	xiang ke	9000
+生克制化	sheng ke zhi hua	9000
+旺相休囚死	wang xiang xiu qiu si	8500
+金木水火土	jin mu shui huo tu	9500
+
+##### 易经与八卦
+易经	yi jing	10000
+周易	zhou yi	9800
+易传	yi zhuan	9000
+十翼	shi yi	8600
+卦象	gua xiang	9600
+卦辞	gua ci	9200
+爻辞	yao ci	9200
+彖传	tuan zhuan	8500
+象传	xiang zhuan	8500
+文言传	wen yan zhuan	8200
+系辞传	xi ci zhuan	8500
+说卦传	shuo gua zhuan	8200
+序卦传	xu gua zhuan	8200
+杂卦传	za gua zhuan	8200
+内卦	nei gua	8800
+外卦	wai gua	8800
+上卦	shang gua	8600
+下卦	xia gua	8600
+本卦	ben gua	9000
+变卦	bian gua	9000
+互卦	hu gua	8500
+错卦	cuo gua	8200
+综卦	zong gua	8200
+动爻	dong yao	9000
+静爻	jing yao	8500
+阳爻	yang yao	9000
+阴爻	yin yao	9000
+老阳	lao yang	8500
+老阴	lao yin	8500
+少阳	shao yang	8500
+少阴	shao yin	8500
+先天八卦	xian tian ba gua	9600
+后天八卦	hou tian ba gua	9600
+八卦	ba gua	10000
+乾	qian	9800
+坤	kun	9800
+震	zhen	9600
+巽	xun	9600
+坎	kan	9600
+离	li	9600
+艮	gen	9600
+兑	dui	9600
+乾卦	qian gua	9500
+坤卦	kun gua	9500
+震卦	zhen gua	9300
+巽卦	xun gua	9300
+坎卦	kan gua	9300
+离卦	li gua	9300
+艮卦	gen gua	9300
+兑卦	dui gua	9300
+乾为天	qian wei tian	9000
+坤为地	kun wei di	9000
+水雷屯	shui lei zhun	8800
+山水蒙	shan shui meng	8800
+水天需	shui tian xu	8800
+天水讼	tian shui song	8800
+地水师	di shui shi	8800
+水地比	shui di bi	8800
+风天小畜	feng tian xiao xu	8800
+天泽履	tian ze lv	8800
+地天泰	di tian tai	8800
+天地否	tian di pi	8800
+天火同人	tian huo tong ren	8800
+火天大有	huo tian da you	8800
+地山谦	di shan qian	8800
+雷地豫	lei di yu	8800
+泽雷随	ze lei sui	8800
+山风蛊	shan feng gu	8800
+地泽临	di ze lin	8800
+风地观	feng di guan	8800
+火雷噬嗑	huo lei shi ke	8800
+山火贲	shan huo bi	8800
+山地剥	shan di bo	8800
+地雷复	di lei fu	8800
+天雷无妄	tian lei wu wang	8800
+山天大畜	shan tian da xu	8800
+山雷颐	shan lei yi	8800
+泽风大过	ze feng da guo	8800
+坎为水	kan wei shui	8800
+离为火	li wei huo	8800
+泽山咸	ze shan xian	8800
+雷风恒	lei feng heng	8800
+天山遁	tian shan dun	8800
+雷天大壮	lei tian da zhuang	8800
+火地晋	huo di jin	8800
+地火明夷	di huo ming yi	8800
+风火家人	feng huo jia ren	8800
+火泽睽	huo ze kui	8800
+水山蹇	shui shan jian	8800
+雷水解	lei shui xie	8800
+山泽损	shan ze sun	8800
+风雷益	feng lei yi	8800
+泽天夬	ze tian guai	8800
+天风姤	tian feng gou	8800
+泽地萃	ze di cui	8800
+地风升	di feng sheng	8800
+泽水困	ze shui kun	8800
+水风井	shui feng jing	8800
+泽火革	ze huo ge	8800
+火风鼎	huo feng ding	8800
+震为雷	zhen wei lei	8800
+艮为山	gen wei shan	8800
+风山渐	feng shan jian	8800
+雷泽归妹	lei ze gui mei	8800
+雷火丰	lei huo feng	8800
+火山旅	huo shan lv	8800
+巽为风	xun wei feng	8800
+兑为泽	dui wei ze	8800
+风水涣	feng shui huan	8800
+水泽节	shui ze jie	8800
+风泽中孚	feng ze zhong fu	8800
+雷山小过	lei shan xiao guo	8800
+水火既济	shui huo ji ji	8800
+火水未济	huo shui wei ji	8800
+
+##### 天干地支与六十甲子
+天干	tian gan	10000
+地支	di zhi	10000
+干支	gan zhi	10000
+十天干	shi tian gan	9500
+十二地支	shi er di zhi	9500
+甲木	jia mu	9400
+乙木	yi mu	9400
+丙火	bing huo	9400
+丁火	ding huo	9400
+戊土	wu tu	9400
+己土	ji tu	9400
+庚金	geng jin	9400
+辛金	xin jin	9400
+壬水	ren shui	9400
+癸水	gui shui	9400
+子水	zi shui	9200
+丑土	chou tu	9200
+寅木	yin mu	9200
+卯木	mao mu	9200
+辰土	chen tu	9200
+巳火	si huo	9200
+午火	wu huo	9200
+未土	wei tu	9200
+申金	shen jin	9200
+酉金	you jin	9200
+戌土	xu tu	9200
+亥水	hai shui	9200
+地支藏干	di zhi cang gan	9400
+天干透出	tian gan tou chu	9000
+透干	tou gan	9000
+通根	tong gen	9000
+得令	de ling	9000
+失令	shi ling	8500
+得地	de di	8500
+失地	shi di	8500
+合化	he hua	9000
+天干五合	tian gan wu he	8500
+地支六合	di zhi liu he	8500
+地支三合	di zhi san he	8500
+三会局	san hui ju	8500
+刑冲合害	xing chong he hai	9000
+子午冲	zi wu chong	8200
+丑未冲	chou wei chong	8200
+寅申冲	yin shen chong	8200
+卯酉冲	mao you chong	8200
+辰戌冲	chen xu chong	8200
+巳亥冲	si hai chong	8200
+甲子	jia zi	8500
+乙丑	yi chou	8500
+丙寅	bing yin	8500
+丁卯	ding mao	8500
+戊辰	wu chen	8500
+己巳	ji si	8500
+庚午	geng wu	8500
+辛未	xin wei	8500
+壬申	ren shen	8500
+癸酉	gui you	8500
+甲戌	jia xu	8500
+乙亥	yi hai	8500
+丙子	bing zi	8500
+丁丑	ding chou	8500
+戊寅	wu yin	8500
+己卯	ji mao	8500
+庚辰	geng chen	8500
+辛巳	xin si	8500
+壬午	ren wu	8500
+癸未	gui wei	8500
+甲申	jia shen	8500
+乙酉	yi you	8500
+丙戌	bing xu	8500
+丁亥	ding hai	8500
+戊子	wu zi	8500
+己丑	ji chou	8500
+庚寅	geng yin	8500
+辛卯	xin mao	8500
+壬辰	ren chen	8500
+癸巳	gui si	8500
+甲午	jia wu	8500
+乙未	yi wei	8500
+丙申	bing shen	8500
+丁酉	ding you	8500
+戊戌	wu xu	8500
+己亥	ji hai	8500
+庚子	geng zi	8500
+辛丑	xin chou	8500
+壬寅	ren yin	8500
+癸卯	gui mao	8500
+甲辰	jia chen	8500
+乙巳	yi si	8500
+丙午	bing wu	8500
+丁未	ding wei	8500
+戊申	wu shen	8500
+己酉	ji you	8500
+庚戌	geng xu	8500
+辛亥	xin hai	8500
+壬子	ren zi	8500
+癸丑	gui chou	8500
+甲寅	jia yin	8500
+乙卯	yi mao	8500
+丙辰	bing chen	8500
+丁巳	ding si	8500
+戊午	wu wu	8500
+己未	ji wei	8500
+庚申	geng shen	8500
+辛酉	xin you	8500
+壬戌	ren xu	8500
+癸亥	gui hai	8500
+
+##### 纳音
+纳音	na yin	9200
+纳音五行	na yin wu xing	9000
+海中金	hai zhong jin	8500
+炉中火	lu zhong huo	8500
+大林木	da lin mu	8500
+路旁土	lu pang tu	8500
+剑锋金	jian feng jin	8500
+山头火	shan tou huo	8500
+涧下水	jian xia shui	8500
+城头土	cheng tou tu	8500
+白蜡金	bai la jin	8500
+杨柳木	yang liu mu	8500
+泉中水	quan zhong shui	8500
+屋上土	wu shang tu	8500
+霹雳火	pi li huo	8500
+松柏木	song bai mu	8500
+长流水	chang liu shui	8500
+沙中金	sha zhong jin	8500
+山下火	shan xia huo	8500
+平地木	ping di mu	8500
+壁上土	bi shang tu	8500
+金箔金	jin bo jin	8500
+覆灯火	fu deng huo	8500
+天河水	tian he shui	8500
+大驿土	da yi tu	8500
+钗钏金	chai chuan jin	8500
+桑柘木	sang zhe mu	8500
+大溪水	da xi shui	8500
+沙中土	sha zhong tu	8500
+天上火	tian shang huo	8500
+石榴木	shi liu mu	8500
+大海水	da hai shui	8500
+
+##### 八字命理
+八字	ba zi	10000
+四柱	si zhu	10000
+四柱八字	si zhu ba zi	9800
+生辰八字	sheng chen ba zi	9800
+乾造	qian zao	9500
+坤造	kun zao	9500
+年柱	nian zhu	9400
+月柱	yue zhu	9400
+日柱	ri zhu	9400
+时柱	shi zhu	9400
+年干	nian gan	9000
+年支	nian zhi	9000
+月干	yue gan	9000
+月支	yue zhi	9000
+日干	ri gan	9200
+日支	ri zhi	9200
+时干	shi gan	9000
+时支	shi zhi	9000
+日主	ri zhu	9800
+日元	ri yuan	9600
+命主	ming zhu	9000
+身强	shen qiang	9400
+身弱	shen ruo	9400
+旺衰	wang shuai	9300
+格局	ge ju	9500
+用神	yong shen	9600
+喜神	xi shen	9400
+忌神	ji shen	9400
+仇神	chou shen	8500
+闲神	xian shen	8300
+调候	tiao hou	9000
+扶抑	fu yi	8800
+通关	tong guan	8500
+病药	bing yao	8300
+寒暖燥湿	han nuan zao shi	8500
+财官印	cai guan yin	9000
+官杀	guan sha	9300
+食伤	shi shang	9300
+印枭	yin xiao	9000
+比劫	bi jie	9300
+十神	shi shen	10000
+比肩	bi jian	9600
+劫财	jie cai	9600
+食神	shi shen	9600
+伤官	shang guan	9600
+偏财	pian cai	9600
+正财	zheng cai	9600
+七杀	qi sha	9600
+偏官	pian guan	9000
+正官	zheng guan	9600
+偏印	pian yin	9600
+正印	zheng yin	9600
+枭神	xiao shen	9000
+正官格	zheng guan ge	8800
+七杀格	qi sha ge	8800
+正财格	zheng cai ge	8800
+偏财格	pian cai ge	8800
+食神格	shi shen ge	8800
+伤官格	shang guan ge	8800
+正印格	zheng yin ge	8800
+偏印格	pian yin ge	8800
+建禄格	jian lu ge	8800
+阳刃格	yang ren ge	8800
+羊刃格	yang ren ge	8800
+从财格	cong cai ge	8500
+从杀格	cong sha ge	8500
+从儿格	cong er ge	8500
+从旺格	cong wang ge	8500
+化气格	hua qi ge	8500
+专旺格	zhuan wang ge	8500
+杀印相生	sha yin xiang sheng	9000
+官印相生	guan yin xiang sheng	9000
+食神制杀	shi shen zhi sha	9000
+伤官配印	shang guan pei yin	9000
+伤官见官	shang guan jian guan	9000
+食伤生财	shi shang sheng cai	9000
+财生官	cai sheng guan	8800
+财坏印	cai huai yin	8800
+财滋弱杀	cai zi ruo sha	8500
+枭神夺食	xiao shen duo shi	9000
+比劫夺财	bi jie duo cai	9000
+群比争财	qun bi zheng cai	8500
+十二长生	shi er chang sheng	9300
+长生	chang sheng	9000
+沐浴	mu yu	8800
+冠带	guan dai	8800
+临官	lin guan	8800
+帝旺	di wang	9000
+衰	shuai	8500
+病	bing	8300
+死	si	8300
+墓	mu	8500
+绝	jue	8500
+胎	tai	8500
+养	yang	8500
+大运	da yun	9600
+流年	liu nian	9600
+流月	liu yue	9200
+流日	liu ri	9000
+流时	liu shi	8800
+起运	qi yun	9000
+交运	jiao yun	9000
+岁运	sui yun	8800
+命宫	ming gong	9000
+胎元	tai yuan	8500
+身宫	shen gong	8800
+
+##### 神煞
+神煞	shen sha	9600
+贵人	gui ren	9000
+天乙贵人	tian yi gui ren	9500
+太极贵人	tai ji gui ren	9000
+文昌贵人	wen chang gui ren	9300
+天德贵人	tian de gui ren	9000
+月德贵人	yue de gui ren	9000
+福星贵人	fu xing gui ren	9000
+国印贵人	guo yin gui ren	8500
+华盖	hua gai	9500
+驿马	yi ma	9400
+桃花	tao hua	9400
+咸池	xian chi	8800
+红鸾	hong luan	9000
+天喜	tian xi	9000
+将星	jiang xing	8800
+羊刃	yang ren	9200
+禄神	lu shen	9000
+空亡	kong wang	9400
+旬空	xun kong	9000
+孤辰	gu chen	8800
+寡宿	gua su	8800
+阴差阳错	yin cha yang cuo	8600
+魁罡	kui gang	9000
+魁罡贵人	kui gang gui ren	8800
+金舆	jin yu	8800
+天医	tian yi	8800
+天罗地网	tian luo di wang	8800
+劫煞	jie sha	8800
+灾煞	zai sha	8800
+亡神	wang shen	8800
+勾绞煞	gou jiao sha	8600
+孤鸾煞	gu luan sha	8500
+元辰	yuan chen	8500
+红艳	hong yan	8500
+红艳煞	hong yan sha	8500
+十恶大败	shi e da bai	8200
+
+##### 六爻、梅花与占法
+六爻	liu yao	10000
+纳甲	na jia	9300
+摇卦	yao gua	9000
+起卦	qi gua	9500
+占断	zhan duan	9000
+断卦	duan gua	9000
+世爻	shi yao	9400
+应爻	ying yao	9400
+用爻	yong yao	8500
+变爻	bian yao	9000
+飞神	fei shen	8800
+伏神	fu shen	8800
+原神	yuan shen	9000
+忌神	ji shen	9200
+仇神	chou shen	8500
+六亲	liu qin	9300
+父母爻	fu mu yao	9000
+兄弟爻	xiong di yao	9000
+子孙爻	zi sun yao	9000
+妻财爻	qi cai yao	9000
+官鬼爻	guan gui yao	9000
+六兽	liu shou	9200
+青龙	qing long	9000
+朱雀	zhu que	9000
+勾陈	gou chen	9000
+螣蛇	teng she	8500
+腾蛇	teng she	8500
+白虎	bai hu	9000
+玄武	xuan wu	9000
+日辰	ri chen	9000
+月建	yue jian	9000
+月破	yue po	8800
+日破	ri po	8800
+暗动	an dong	8500
+回头生	hui tou sheng	8500
+回头克	hui tou ke	8500
+反吟	fan yin	8500
+伏吟	fu yin	8500
+梅花易数	mei hua yi shu	9600
+体卦	ti gua	9000
+用卦	yong gua	9000
+体用	ti yong	9000
+互体	hu ti	8300
+外应	wai ying	8500
+先天起卦	xian tian qi gua	8300
+后天起卦	hou tian qi gua	8300
+金钱卦	jin qian gua	8500
+蓍草	shi cao	8500
+蓍草占	shi cao zhan	8300
+
+##### 奇门遁甲
+奇门遁甲	qi men dun jia	10000
+奇门	qi men	9800
+遁甲	dun jia	9500
+阴遁	yin dun	9200
+阳遁	yang dun	9200
+三奇	san qi	9300
+六仪	liu yi	9300
+八门	ba men	9600
+九星	jiu xing	9600
+八神	ba shen	9400
+值符	zhi fu	9400
+值使	zhi shi	9400
+天盘	tian pan	9000
+地盘	di pan	9000
+人盘	ren pan	9000
+神盘	shen pan	9000
+九宫	jiu gong	9500
+休门	xiu men	9000
+生门	sheng men	9000
+伤门	shang men	9000
+杜门	du men	9000
+景门	jing men	9000
+死门	si men	9000
+惊门	jing men	9000
+开门	kai men	9000
+天蓬	tian peng	8800
+天任	tian ren	8800
+天冲	tian chong	8800
+天辅	tian fu	8800
+天英	tian ying	8800
+天芮	tian rui	8800
+天柱	tian zhu	8800
+天心	tian xin	8800
+九天	jiu tian	8800
+九地	jiu di	8800
+太阴	tai yin	9000
+六合	liu he	9000
+白虎	bai hu	9000
+玄武	xuan wu	9000
+旬首	xun shou	8800
+符使	fu shi	8500
+马星	ma xing	8500
+空亡	kong wang	9200
+击刑	ji xing	8500
+门迫	men po	8500
+入墓	ru mu	8500
+反吟局	fan yin ju	8400
+伏吟局	fu yin ju	8400
+时家奇门	shi jia qi men	8800
+日家奇门	ri jia qi men	8500
+月家奇门	yue jia qi men	8500
+年家奇门	nian jia qi men	8500
+置闰	zhi run	8300
+拆补	chai bu	8300
+茅山法	mao shan fa	8200
+
+##### 紫微斗数
+紫微斗数	zi wei dou shu	10000
+紫微	zi wei	9800
+斗数	dou shu	9600
+命盘	ming pan	9600
+本命盘	ben ming pan	9500
+十二宫	shi er gong	9400
+命宫	ming gong	9500
+身宫	shen gong	9200
+兄弟宫	xiong di gong	8800
+夫妻宫	fu qi gong	8800
+子女宫	zi nv gong	8800
+财帛宫	cai bo gong	9000
+疾厄宫	ji e gong	8800
+迁移宫	qian yi gong	8800
+交友宫	jiao you gong	8500
+奴仆宫	nu pu gong	8500
+官禄宫	guan lu gong	9000
+田宅宫	tian zhai gong	8800
+福德宫	fu de gong	9000
+父母宫	fu mu gong	8800
+十四主星	shi si zhu xing	9300
+紫微星	zi wei xing	9000
+天机	tian ji	9000
+太阳	tai yang	9000
+武曲	wu qu	9000
+天同	tian tong	9000
+廉贞	lian zhen	9000
+天府	tian fu	9000
+太阴	tai yin	9000
+贪狼	tan lang	9000
+巨门	ju men	9000
+天相	tian xiang	9000
+天梁	tian liang	9000
+七杀	qi sha	9000
+破军	po jun	9000
+四化	si hua	9400
+化禄	hua lu	9200
+化权	hua quan	9200
+化科	hua ke	9200
+化忌	hua ji	9200
+禄存	lu cun	9000
+天马	tian ma	9000
+左辅	zuo fu	8800
+右弼	you bi	8800
+文昌	wen chang	9000
+文曲	wen qu	9000
+天魁	tian kui	8800
+天钺	tian yue	8800
+擎羊	qing yang	8800
+陀罗	tuo luo	8800
+火星	huo xing	8500
+铃星	ling xing	8500
+地空	di kong	8500
+地劫	di jie	8500
+大限	da xian	9200
+小限	xiao xian	9000
+流年命宫	liu nian ming gong	8500
+流年四化	liu nian si hua	8500
+斗君	dou jun	8500
+
+##### 风水堪舆
+风水	feng shui	10000
+堪舆	kan yu	9800
+地理	di li	8500
+形势派	xing shi pai	9000
+理气派	li qi pai	9000
+峦头	luan tou	9200
+理气	li qi	9200
+龙穴砂水向	long xue sha shui xiang	9000
+龙脉	long mai	9200
+来龙去脉	lai long qu mai	9000
+寻龙点穴	xun long dian xue	9000
+藏风聚气	cang feng ju qi	9200
+明堂	ming tang	9000
+案山	an shan	8800
+朝山	chao shan	8800
+水口	shui kou	8800
+砂水	sha shui	8800
+坐山	zuo shan	8800
+朝向	chao xiang	9000
+坐山朝向	zuo shan chao xiang	9000
+二十四山	er shi si shan	9400
+三元九运	san yuan jiu yun	9400
+玄空	xuan kong	9200
+玄空飞星	xuan kong fei xing	9400
+飞星盘	fei xing pan	9000
+九宫飞星	jiu gong fei xing	9300
+旺山旺向	wang shan wang xiang	8800
+双星到向	shuang xing dao xiang	8600
+上山下水	shang shan xia shui	8600
+反弓水	fan gong shui	8800
+路冲	lu chong	8800
+穿堂煞	chuan tang sha	8800
+天斩煞	tian zhan sha	8800
+镰刀煞	lian dao sha	8500
+声煞	sheng sha	8500
+五黄	wu huang	9000
+二黑	er hei	8800
+三煞	san sha	8800
+太岁方	tai sui fang	8800
+岁破方	sui po fang	8500
+青龙位	qing long wei	8500
+白虎位	bai hu wei	8500
+朱雀位	zhu que wei	8500
+玄武位	xuan wu wei	8500
+罗盘	luo pan	9200
+天池	tian chi	8200
+内盘	nei pan	8200
+外盘	wai pan	8200
+分金	fen jin	8500
+消砂纳水	xiao sha na shui	8500
+
+##### 择日与黄历
+择日	ze ri	9800
+择吉	ze ji	9600
+通书	tong shu	9000
+黄历	huang li	9400
+老黄历	lao huang li	9000
+宜忌	yi ji	9200
+黄道吉日	huang dao ji ri	9500
+黑道日	hei dao ri	8500
+建除十二神	jian chu shi er shen	9000
+十二值神	shi er zhi shen	9000
+青龙	qing long	9000
+明堂	ming tang	9000
+天刑	tian xing	8800
+朱雀	zhu que	9000
+金匮	jin kui	8800
+天德	tian de	8800
+白虎	bai hu	9000
+玉堂	yu tang	8800
+天牢	tian lao	8800
+玄武	xuan wu	9000
+司命	si ming	8800
+勾陈	gou chen	9000
+建日	jian ri	8800
+除日	chu ri	8800
+满日	man ri	8800
+平日	ping ri	8800
+定日	ding ri	8800
+执日	zhi ri	8800
+破日	po ri	8800
+危日	wei ri	8800
+成日	cheng ri	8800
+收日	shou ri	8800
+开日	kai ri	8800
+闭日	bi ri	8800
+彭祖百忌	peng zu bai ji	9000
+吉神宜趋	ji shen yi qu	8800
+凶神宜忌	xiong shen yi ji	8800
+纳采	na cai	8500
+嫁娶	jia qu	8800
+开市	kai shi	8800
+动土	dong tu	8800
+安床	an chuang	8800
+入宅	ru zhai	8800
+祭祀	ji si	8500
+祈福	qi fu	8500
+斋醮	zhai jiao	8300
+解除	jie chu	8200
+出行	chu xing	8500
+安葬	an zang	8500
+破土	po tu	8500
+
+##### 星宿、道教与民俗神明
+二十八宿	er shi ba xiu	9500
+东方苍龙	dong fang cang long	9000
+西方白虎	xi fang bai hu	9000
+南方朱雀	nan fang zhu que	9000
+北方玄武	bei fang xuan wu	9000
+角宿	jiao xiu	8500
+亢宿	kang xiu	8500
+氐宿	di xiu	8500
+房宿	fang xiu	8500
+心宿	xin xiu	8500
+尾宿	wei xiu	8500
+箕宿	ji xiu	8500
+斗宿	dou xiu	8500
+牛宿	niu xiu	8500
+女宿	nv xiu	8500
+虚宿	xu xiu	8500
+危宿	wei xiu	8500
+室宿	shi xiu	8500
+壁宿	bi xiu	8500
+奎宿	kui xiu	8500
+娄宿	lou xiu	8500
+胃宿	wei xiu	8500
+昴宿	mao xiu	8500
+毕宿	bi xiu	8500
+觜宿	zi xiu	8500
+参宿	shen xiu	8500
+井宿	jing xiu	8500
+鬼宿	gui xiu	8500
+柳宿	liu xiu	8500
+星宿	xing xiu	8500
+张宿	zhang xiu	8500
+翼宿	yi xiu	8500
+轸宿	zhen xiu	8500
+太岁	tai sui	9500
+值年太岁	zhi nian tai sui	9000
+斗姆	dou mu	8800
+北斗七星	bei dou qi xing	9000
+南斗六星	nan dou liu xing	8800
+三清	san qing	9000
+元始天尊	yuan shi tian zun	9000
+灵宝天尊	ling bao tian zun	9000
+道德天尊	dao de tian zun	9000
+太上老君	tai shang lao jun	9000
+三官大帝	san guan da di	8800
+天官赐福	tian guan ci fu	8800
+地官赦罪	di guan she zui	8600
+水官解厄	shui guan jie e	8600
+真武大帝	zhen wu da di	8800
+玄天上帝	xuan tian shang di	8800
+雷祖	lei zu	8500
+财神	cai shen	9300
+五路财神	wu lu cai shen	9000
+赵公明	zhao gong ming	9000
+比干	bi gan	8500
+范蠡	fan li	8500
+关公	guan gong	8500
+
+##### 西方占星
+占星	zhan xing	9800
+占星学	zhan xing xue	9600
+星盘	xing pan	9500
+本命星盘	ben ming xing pan	9200
+本命盘	ben ming pan	9200
+行运	xing yun	9200
+推运	tui yun	9000
+次限	ci xian	8500
+太阳星座	tai yang xing zuo	9200
+月亮星座	yue liang xing zuo	9200
+上升星座	shang sheng xing zuo	9200
+下降星座	xia jiang xing zuo	8800
+天顶	tian ding	8800
+天底	tian di	8800
+命主星	ming zhu xing	9000
+宫主星	gong zhu xing	8800
+十二宫位	shi er gong wei	9000
+第一宫	di yi gong	8500
+第二宫	di er gong	8500
+第三宫	di san gong	8500
+第四宫	di si gong	8500
+第五宫	di wu gong	8500
+第六宫	di liu gong	8500
+第七宫	di qi gong	8500
+第八宫	di ba gong	8500
+第九宫	di jiu gong	8500
+第十宫	di shi gong	8500
+第十一宫	di shi yi gong	8500
+第十二宫	di shi er gong	8500
+相位	xiang wei	9200
+合相	he xiang	9000
+对分	dui fen	8800
+三分相	san fen xiang	8800
+四分相	si fen xiang	8800
+六分相	liu fen xiang	8800
+刑相	xing xiang	8800
+冲相	chong xiang	8800
+拱相	gong xiang	8800
+刑冲拱合	xing chong gong he	9000
+逆行	ni xing	9000
+水逆	shui ni	9000
+北交点	bei jiao dian	8800
+南交点	nan jiao dian	8800
+凯龙星	kai long xing	8500
+白羊座	bai yang zuo	9000
+金牛座	jin niu zuo	9000
+双子座	shuang zi zuo	9000
+巨蟹座	ju xie zuo	9000
+狮子座	shi zi zuo	9000
+处女座	chu nv zuo	9000
+天秤座	tian cheng zuo	9000
+天蝎座	tian xie zuo	9000
+射手座	she shou zuo	9000
+摩羯座	mo jie zuo	9000
+水瓶座	shui ping zuo	9000
+双鱼座	shuang yu zuo	9000
+太阳	tai yang	9000
+月亮	yue liang	9000
+水星	shui xing	9000
+金星	jin xing	9000
+火星	huo xing	9000
+木星	mu xing	9000
+土星	tu xing	9000
+天王星	tian wang xing	8800
+海王星	hai wang xing	8800
+冥王星	ming wang xing	8800
+
+##### 塔罗
+塔罗	ta luo	9800
+塔罗牌	ta luo pai	9600
+塔罗占卜	ta luo zhan bu	9400
+牌阵	pai zhen	9000
+塔罗牌阵	ta luo pai zhen	9000
+大阿卡纳	da a ka na	9400
+小阿卡纳	xiao a ka na	9400
+阿卡纳	a ka na	9000
+正位	zheng wei	9000
+逆位	ni wei	9000
+愚者	yu zhe	9000
+魔术师	mo shu shi	9000
+女祭司	nv ji si	9000
+女皇	nv huang	9000
+皇帝	huang di	9000
+教皇	jiao huang	9000
+恋人	lian ren	9000
+战车	zhan che	9000
+力量	li liang	9000
+隐者	yin zhe	9000
+命运之轮	ming yun zhi lun	9000
+正义	zheng yi	9000
+倒吊人	dao diao ren	9000
+死神	si shen	9000
+节制	jie zhi	9000
+恶魔	e mo	9000
+高塔	gao ta	9000
+星星	xing xing	9000
+月亮	yue liang	9000
+太阳	tai yang	9000
+审判	shen pan	9000
+世界	shi jie	9000
+权杖	quan zhang	9000
+圣杯	sheng bei	9000
+宝剑	bao jian	9000
+星币	xing bi	9000
+钱币	qian bi	8500
+宫廷牌	gong ting pai	8800
+国王	guo wang	8500
+王后	wang hou	8500
+骑士	qi shi	8500
+侍从	shi cong	8500
+凯尔特十字	kai er te shi zi	8800
+三张牌	san zhang pai	8500
+灵性牌卡	ling xing pai ka	8500
+神谕卡	shen yu ka	8500
+
+##### 西方神秘学、炼金术与卡巴拉
+奥秘学	ao mi xue	9200
+秘传	mi chuan	8800
+隐修	yin xiu	8500
+赫尔墨斯	he er mo si	9000
+赫尔墨斯主义	he er mo si zhu yi	8800
+炼金术	lian jin shu	9600
+炼金	lian jin	9200
+贤者之石	xian zhe zhi shi	9000
+以太	yi tai	9000
+星光体	xing guang ti	8800
+灵摆	ling bai	9000
+水晶球	shui jing qiu	8800
+灵视	ling shi	8500
+通灵	tong ling	8500
+显化	xian hua	8500
+仪式魔法	yi shi mo fa	9000
+混沌魔法	hun dun mo fa	8800
+符文	fu wen	9000
+卢恩	lu en	8800
+卢恩符文	lu en fu wen	8800
+卡巴拉	ka ba la	9400
+喀巴拉	ka ba la	9000
+生命之树	sheng ming zhi shu	9400
+十质点	shi zhi dian	9000
+塞菲罗特	sai fei luo te	8800
+中柱	zhong zhu	8500
+慈悲柱	ci bei zhu	8500
+严厉柱	yan li zhu	8500
+王冠	wang guan	8500
+智慧	zhi hui	8500
+理解	li jie	8500
+慈悲	ci bei	8500
+严厉	yan li	8500
+美丽	mei li	8500
+胜利	sheng li	8500
+荣耀	rong yao	8500
+基础	ji chu	8500
+王国	wang guo	8500
+黄金黎明	huang jin li ming	8800
+秘仪	mi yi	8500
+占星魔法	zhan xing mo fa	8500
+护符	hu fu	8500
+符咒	fu zhou	8500
+护身符	hu shen fu	8500
+圣杯传说	sheng bei chuan shuo	8200
+玫瑰十字	mei gui shi zi	8500
+神圣几何	shen sheng ji he	8800
+曼陀罗	man tuo luo	8800
+脉轮	mai lun	8800
+昆达里尼	kun da li ni	8500
+阿卡西记录	a ka xi ji lu	8500
+
+##### 常见异读与容错
+术数	shu shu	10000
+术数	shu shu	10000
+数术	shu shu	9500
+卜筮	bu shi	8500
+卜筮	bo shi	7500
+巽	xun	9600
+艮	gen	9600
+兑	dui	9600
+噬嗑	shi ke	8800
+贲	bi	8800
+睽	kui	8800
+蹇	jian	8800
+夬	guai	8800
+姤	gou	8800
+螣蛇	teng she	8500
+腾蛇	teng she	8500
+觜宿	zi xiu	8500
+参宿	shen xiu	8500
+星宿	xing xiu	8500
+二十八宿	er shi ba xiu	9500
+阿卡纳	a ka na	9000
+阿尔克那	a er ke na	7800
+卡巴拉	ka ba la	9400
+喀巴拉	ka ba la	9000

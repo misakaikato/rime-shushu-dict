@@ -29,6 +29,7 @@
 - **易接入**：标准 Rime 词库格式（`*.dict.yaml`），可单独使用或合并到自定义词库。
 - **方案通用**：基于汉语拼音编码，适用于 [雾凇拼音](https://github.com/iDvel/rime-ice)、[小鹤双拼](https://github.com/rime/rime-double-pinyin)、[明月拼音](https://github.com/rime/rime-pinyin-simp) 等绝大多数拼音系方案。
 - **含异读容错**：对常见多音字（如 卜筮 `bu shi` / `bo shi`）、生僻字（巽、艮、噬嗑、贲、睽、蹇、夬、姤）、外来译名（阿卡纳 / 阿尔克那、卡巴拉 / 喀巴拉）等设有备选编码，减少候选漏出。
+- **可选符号挂载**：附带 OpenCC 符号映射，输入 乾卦 / 水火既济 / 摩羯座 等词条时可直接上屏 ☰ / ䷾ / ♑ 等 Unicode 符号，详见 [符号挂载](#方法三emoji--符号挂载可选)。
 
 ## 词库内容
 
@@ -83,6 +84,35 @@
 ### 方法二：合并到现有词库
 
 直接将 `shushu_mysticism.dict.yaml` 中 `---` / `...` 之后的词条段落，粘贴到你自定义词库的对应位置，重新部署即可。
+
+### 方法三：Emoji / 符号挂载（可选）
+
+通过 OpenCC 过滤器为词条挂载对应的 Unicode 符号：输入 `qiangua`，候选中除「乾卦」外还会出现「☰」，空格照常上屏汉字，按对应数字键即可上屏符号。
+
+覆盖 128 条映射：太极 ☯、阴阳爻与四象 ⚊⚋⚌⚍⚎⚏、八卦 ☰–☷、六十四卦（全名及 既济 / 中孚 / 归妹 等两字卦名）䷀–䷿、十二星座 ♈–♓、十大行星 ☉☽☿♀♂♃♄♅♆♇、南北交点 ☊☋ 与凯龙星 ⚷。
+
+1. 将 [opencc/shushu_symbols.txt](./opencc/shushu_symbols.txt) 与 [opencc/shushu_symbols.json](./opencc/shushu_symbols.json) 放入 Rime 用户目录下的 `opencc/` 文件夹（没有就新建）。
+
+2. 在你正在使用的方案 custom 文件（如 `rime_ice.custom.yaml`）中追加开关与过滤器：
+
+	```yaml
+	patch:
+	  switches/+:
+	    - name: shushu_symbols
+	      states: [ 卦符关, 卦符开 ]
+	      reset: 1
+	  engine/filters/+:
+	    - simplifier@shushu_symbols
+	  shushu_symbols:
+	    opencc_config: shushu_symbols.json
+	    option_name: shushu_symbols
+	    tips: all
+	    inherit_comment: false
+	```
+
+3. 重新部署。
+
+默认开启，可在方案菜单（<kbd>F4</kbd> 或 <kbd>Ctrl</kbd>+<kbd>`</kbd>）中随时关闭。与 [雾凇拼音](https://github.com/iDvel/rime-ice) 自带的 emoji 挂载互不冲突，可同时启用。
 
 ## 词频说明
 

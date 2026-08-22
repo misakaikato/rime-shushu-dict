@@ -29,6 +29,7 @@ Including I-Ching, BaZi, Ziwei, Qimen, Feng Shui, Taoism, Western Astrology, Tar
 - **Easy integration**: Standard Rime dictionary format (`*.dict.yaml`); use it standalone or merge into your existing dictionary.
 - **Schema-agnostic**: Encoded in Hanyu Pinyin, compatible with most pinyin-based schemas including [rime-ice](https://github.com/iDvel/rime-ice), [Flypy](https://github.com/rime/rime-double-pinyin), [Mingyue Pinyin](https://github.com/rime/rime-pinyin-simp), etc.
 - **Variant readings & fault tolerance**: Alternative encodings provided for polyphonic characters (e.g. 卜筮 `bu shi` / `bo shi`), rare characters (巽, 艮, 噬嗑, 贲, 睽, 蹇, 夬, 姤), and translated terms (阿卡纳 / 阿尔克那, 卡巴拉 / 喀巴拉) to minimize candidate misses.
+- **Optional symbol mapping**: Ships with an OpenCC mapping so typing 乾卦 / 水火既济 / 摩羯座 can directly output ☰ / ䷾ / ♑ and other Unicode symbols — see [Symbol mapping](#option-3-emoji--symbol-mapping-optional).
 
 ## Contents
 
@@ -83,6 +84,35 @@ Including I-Ching, BaZi, Ziwei, Qimen, Feng Shui, Taoism, Western Astrology, Tar
 ### Option 2: Merge into an existing dictionary
 
 Copy the entries below the `---` / `...` markers in `shushu_mysticism.dict.yaml` directly into the corresponding section of your custom dictionary, then redeploy.
+
+### Option 3: Emoji / Symbol mapping (optional)
+
+An OpenCC filter attaches Unicode symbols to matching entries: typing `qiangua` shows both 乾卦 and ☰ as candidates — Space commits the hanzi as usual, while pressing the symbol's number key commits the symbol.
+
+128 mappings are covered: Taiji ☯, yin/yang lines & the four Xiang ⚊⚋⚌⚍⚎⚏, the eight trigrams ☰–☷, all 64 hexagrams (full names plus two-character short names like 既济 / 中孚 / 归妹) ䷀–䷿, the 12 zodiac signs ♈–♓, the 10 planets ☉☽☿♀♂♃♄♅♆♇, the lunar nodes ☊☋ and Chiron ⚷.
+
+1. Place [opencc/shushu_symbols.txt](./opencc/shushu_symbols.txt) and [opencc/shushu_symbols.json](./opencc/shushu_symbols.json) into the `opencc/` folder of your Rime user directory (create it if absent).
+
+2. Append the switch and filter in your schema's custom file (e.g. `rime_ice.custom.yaml`):
+
+	```yaml
+	patch:
+	  switches/+:
+	    - name: shushu_symbols
+	      states: [ 卦符关, 卦符开 ]
+	      reset: 1
+	  engine/filters/+:
+	    - simplifier@shushu_symbols
+	  shushu_symbols:
+	    opencc_config: shushu_symbols.json
+	    option_name: shushu_symbols
+	    tips: all
+	    inherit_comment: false
+	```
+
+3. Redeploy.
+
+Enabled by default; toggle it anytime via the schema menu (<kbd>F4</kbd> or <kbd>Ctrl</kbd>+<kbd>`</kbd>). It coexists with the built-in emoji mapping of [rime-ice](https://github.com/iDvel/rime-ice) — both can stay enabled.
 
 ## Weight Reference
 

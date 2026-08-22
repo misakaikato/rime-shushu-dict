@@ -6,7 +6,7 @@
 #
 ---
 name: shushu_mysticism
-version: "2026-04-27"
+version: "2026-08-22"
 sort: by_weight
 author: misaka
 ...
@@ -163,6 +163,13 @@ author: misaka
 雷山小过	lei shan xiao guo	8800
 水火既济	shui huo ji ji	8800
 火水未济	huo shui wei ji	8800
+小畜	xiao xu	8800
+大畜	da xu	8800
+明夷	ming yi	8800
+归妹	gui mei	8800
+中孚	zhong fu	8800
+既济	ji ji	8800
+未济	wei ji	8800
 
 ##### 天干地支与六十甲子
 天干	tian gan	10000
